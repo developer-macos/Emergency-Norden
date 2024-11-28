@@ -2,5 +2,15 @@
     flex-wrap: wrap;
     display: flex;
     gap: 150px;
-    padding-left: 900px;
+max-width: 100%;
+padding-left: 200px;
+padding-top: 25px;
+}
+
+@media screen and (max-width: 1200) {
+    .section-links{
+        padding-left: 500px;
+        max-width: 100%;
+    }
+    
 }
